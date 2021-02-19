@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>ncnn源码 · GitBook</title>
+        <title>ncnn源码分析 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,8 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="01_源码架构.html" />
+    <link rel="next" href="01_源码架构.md" />
     
-    
-    <link rel="prev" href="../../" />
     
 
     </head>
@@ -87,6 +85,8 @@
 
     
         
+        <li class="header">后端开发</li>
+        
         
     
         <li class="chapter " data-level="1.1" data-path="../../">
@@ -102,12 +102,356 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="./">
+        <li class="chapter " data-level="1.2" >
             
-                <a href="./">
+                <span>
             
                     
-                    ncnn源码
+                    leveldb源码学习
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    libevent源码学习
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    teamtalk源码学习
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    flamingo源码学习
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    redis源码学习
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    brpc源码学习
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    workflow源码学习
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <span>
+            
+                    
+                    skynet源码学习
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" >
+            
+                <span>
+            
+                    
+                    网络编程
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" >
+            
+                <span>
+            
+                    
+                    多线程编程
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" >
+            
+                <span>
+            
+                    
+                    协议设计
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" >
+            
+                <span>
+            
+                    
+                    CGI使用
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" >
+            
+                <span>
+            
+                    
+                    什么是CGI
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.2" >
+            
+                <span>
+            
+                    
+                    CGI实战
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" >
+            
+                <span>
+            
+                    
+                    后端开发知识点记录
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.1" >
+            
+                <span>
+            
+                    
+                    线程池
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2" >
+            
+                <span>
+            
+                    
+                    内存池
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.3" >
+            
+                <span>
+            
+                    
+                    协程学习
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.4" >
+            
+                <span>
+            
+                    
+                    Reactor模式
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.5" >
+            
+                <span>
+            
+                    
+                    心跳包设计
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.6" >
+            
+                <span>
+            
+                    
+                    日志系统设计
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.7" >
+            
+                <span>
+            
+                    
+                    时间轮实现
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.8" >
+            
+                <span>
+            
+                    
+                    连接池
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.9" >
+            
+                <span>
+            
+                    
+                    用户态TCP协议栈
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" >
+            
+                <span>
+            
+                    
+                    极客时间专栏学习笔记
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">深度学习</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../动手学AIOT/index.md">
+            
+                <span>
+            
+                    
+                    动手学AIOT
             
                 </a>
             
@@ -116,12 +460,297 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" data-path="01_源码架构.html">
+        <li class="chapter " data-level="2.1.1" >
             
-                <a href="01_源码架构.html">
+                <span>
             
                     
-                    01 ncnn代码架构
+                    深度学习简介
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" >
+            
+                <span>
+            
+                    
+                    预备知识
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" >
+            
+                <span>
+            
+                    
+                    深度学习基础
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" >
+            
+                <span>
+            
+                    
+                    环境搭建
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" >
+            
+                <span>
+            
+                    
+                    推理框架
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" >
+            
+                <span>
+            
+                    
+                    分类模型
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7" >
+            
+                <span>
+            
+                    
+                    目标检测
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.8" >
+            
+                <span>
+            
+                    
+                    人脸识别
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9" >
+            
+                <span>
+            
+                    
+                    目标跟踪
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.10" >
+            
+                <span>
+            
+                    
+                    实例分割
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.11" >
+            
+                <span>
+            
+                    
+                    姿态估计
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.12" >
+            
+                <span>
+            
+                    
+                    网络压缩
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13" >
+            
+                <span>
+            
+                    
+                    项目实战
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.13.1" >
+            
+                <span>
+            
+                    
+                    人脸识别
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.2" >
+            
+                <span>
+            
+                    
+                    属性分类
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.3" >
+            
+                <span>
+            
+                    
+                    姿态估计
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.4" >
+            
+                <span>
+            
+                    
+                    热力图显示
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.5" >
+            
+                <span>
+            
+                    
+                    人脸检测器
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.6" >
+            
+                <span>
+            
+                    
+                    行人检测
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.7" >
+            
+                <span>
+            
+                    
+                    多目标跟踪
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    ncnn源码分析
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="01_源码架构.md">
+            
+                <span>
+            
+                    
+                    01_ncnn介绍
             
                 </a>
             
@@ -129,12 +758,253 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2" data-path="02_代码架构.html">
+        <li class="chapter " data-level="2.2.2" data-path="02_代码架构.md">
             
-                <a href="02_代码架构.html">
+                <span>
             
                     
-                    02 ncnn架构
+                    02_ncnn交叉编译
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" >
+            
+                <span>
+            
+                    
+                    03_ncnn源码文件介绍
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" >
+            
+                <span>
+            
+                    
+                    04_ncnn核心类分析
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" >
+            
+                <span>
+            
+                    
+                    05_ncnn的neon指令记录
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" >
+            
+                <span>
+            
+                    
+                    06_ncnn卷积神经网络层分析
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" >
+            
+                <span>
+            
+                    
+                    07_ncnn优化卷积计算方法和量化推断
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" >
+            
+                <span>
+            
+                    
+                    08_ncnn int8量化
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../darknet源码分析/">
+            
+                <a href="../darknet源码分析/">
+            
+                    
+                    darknet源码分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" >
+            
+                <span>
+            
+                    
+                    caffe
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" >
+            
+                <span>
+            
+                    
+                    添加Add层
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" >
+            
+                <span>
+            
+                    
+                    添加3D Conv层
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" >
+            
+                <span>
+            
+                    
+                    添加Detection层
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../opencv4.0学习/">
+            
+                <a href="../opencv4.0学习/">
+            
+                    
+                    opencv4.0学习笔记
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="../opencv4.0学习/知识点目录1.html">
+            
+                <a href="../opencv4.0学习/知识点目录1.html">
+            
+                    
+                    知识点(1-89)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="../opencv4.0学习/知识点目录2.html">
+            
+                <a href="../opencv4.0学习/知识点目录2.html">
+            
+                    
+                    知识点(90-150)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3" data-path="../opencv4.0学习/案例实战30讲.html">
+            
+                <a href="../opencv4.0学习/案例实战30讲.html">
+            
+                    
+                    案例实战30例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4" data-path="../opencv4.0学习/案例实战20讲.html">
+            
+                <a href="../opencv4.0学习/案例实战20讲.html">
+            
+                    
+                    案例实战20例
             
                 </a>
             
@@ -144,6 +1014,176 @@
     
 
             </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" >
+            
+                <span>
+            
+                    
+                    目标检测源码分析
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" >
+            
+                <span>
+            
+                    
+                    yolov3源码分析
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2" >
+            
+                <span>
+            
+                    
+                    ssd源码分析
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3" >
+            
+                <span>
+            
+                    
+                    fast_rcnn源码分析
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.4" >
+            
+                <span>
+            
+                    
+                    sort源码分析
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.5" >
+            
+                <span>
+            
+                    
+                    deepsort源码分析
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" >
+            
+                <span>
+            
+                    
+                    计算机视觉题目
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">机器学习</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" >
+            
+                <span>
+            
+                    
+                    监督学习
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" >
+            
+                <span>
+            
+                    
+                    无监督学习
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">视觉SLAM</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" >
+            
+                <span>
+            
+                    
+                    视觉十四讲笔记
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" >
+            
+                <span>
+            
+                    
+                    从零开始学ORB-SLAM2
+            
+                </span>
+            
+
             
         </li>
     
@@ -177,7 +1217,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >ncnn源码</a>
+        <a href="../.." >ncnn源码分析</a>
     </h1>
 </div>
 
@@ -194,7 +1234,7 @@
                                 
                                 <h2 id="ncnn&#x6E90;&#x7801;&#x89E3;&#x6790;">ncnn&#x6E90;&#x7801;&#x89E3;&#x6790;</h2>
 <ul>
-<li><a href="01_&#x6E90;&#x7801;&#x67B6;&#x6784;.html">01_&#x6E90;&#x7801;&#x67B6;&#x6784;</a></li>
+<li><a href="01_&#x6E90;&#x7801;&#x67B6;&#x6784;.md">01_&#x6E90;&#x7801;&#x67B6;&#x6784;</a></li>
 <li><a href="02_&#x4EE3;&#x7801;&#x7ED3;&#x6784;.md">02_&#x4EE3;&#x7801;&#x7ED3;&#x6784;</a></li>
 </ul>
 
@@ -224,12 +1264,8 @@
 
             
                 
-                <a href="../../" class="navigation navigation-prev " aria-label="Previous page: Introduction">
-                    <i class="fa fa-angle-left"></i>
-                </a>
                 
-                
-                <a href="01_源码架构.html" class="navigation navigation-next " aria-label="Next page: 01 ncnn代码架构">
+                <a href="01_源码架构.md" class="navigation navigation-next navigation-unique" aria-label="Next page: 01_ncnn介绍">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -240,7 +1276,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"ncnn源码","level":"1.2","depth":1,"next":{"title":"01 ncnn代码架构","level":"1.2.1","depth":2,"path":"articles/ncnn源码分析/01_源码架构.md","ref":"articles/ncnn源码分析/01_源码架构.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/ncnn源码分析/index.md","mtime":"2021-02-19T02:05:22.127Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-19T04:39:12.420Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"ncnn源码分析","level":"2.2","depth":1,"next":{"title":"01_ncnn介绍","level":"2.2.1","depth":2,"path":"articles/ncnn源码分析/01_源码架构.md","ref":"articles/ncnn源码分析/01_源码架构.md","articles":[]},"previous":{"title":"多目标跟踪","level":"2.1.13.7","depth":3,"ref":"","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/ncnn源码分析/index.md","mtime":"2021-02-19T07:01:57.460Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-19T09:00:19.762Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
@@ -248,10 +1284,6 @@
         
     <script src="../../gitbook/gitbook.js"></script>
     <script src="../../gitbook/theme.js"></script>
-    
-        
-        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
-        
     
         
         <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
